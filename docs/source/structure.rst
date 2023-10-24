@@ -6,7 +6,9 @@ Overview
 
 The GWS can be found in the ``/gws/pw/j07`` directory on JASMIN, and is split into two volumes - ``ncas_obs_vol1`` and ``ncas_obs_vol2``. Within these volumes are directories for each of the AMOF atmospheric observatories, one for mobile instruments, and one for FAAM, with ``amf`` (soon to be ``mobile``), ``bttao``, ``cdao``, ``cvao``, ``faam``, ``iao``, and ``wao`` in ``ncas_obs_vol1``, and ``cao`` in ``ncas_obs_vol2``. Each of these observatory directories have a number of folders for raw data, processed data, software, and sending data to the CEDA archive.
 
-**INSERT PRETTY PICTURE**
+.. image:: _static/structure.png
+   :width: 400
+   :alt: Tree structure of ncas_obs GWS
 
 Raw Data
 --------
@@ -15,6 +17,9 @@ Raw data is the data that comes out of the instrument, prior to any processing o
 - ``incoming`` - a writeable directory for raw data to be uploaded into. Once the instrument scientist is happy the data is correct, it is moved into the ``data`` directory and made read only.
 - ``data`` - read-only directory containing raw data from the instrument. Within this folder, data should be split into folders related to the project the data relates to, in the format ``<start_date>_<project_name>`` (see `Project Folder`_ for more information).
 
+.. image:: _static/rawdata.png
+   :width: 400
+   :alt: Tree structure of raw data folders in ncas_obs GWS
 
 .. _software folder paragraph:
 
@@ -22,6 +27,9 @@ Software
 --------
 A directory for code used for processing raw data. Each instrument has it's own folder, which is linked to the instrument software repository on :ref:`GitHub <github paragraph>`. This code should contain all the processing needed to prepare the raw data into a format ready for ingestion to the CEDA archive, and should be version controlled through GitHub to aid in traceability in data workflow, and any re-processing that may need to be done.
 
+.. image:: _static/software.png
+   :width: 400
+   :alt: Tree structure of software folders in ncas_obs GWS
 
 .. _processing folder paragraph:
 
@@ -31,6 +39,9 @@ A folder to be used in the preparation of data for ingestion to the CEDA archive
 
 Files that are ready to sent to the CEDA archive using the :ref:`Upload to CEDA <upload to ceda paragraph>` tool must be in a folder with the project folder naming convention directly beneath the instrument folder, i.e. ``processing/<instrument_name>/<project_folder>/``. Within this folder, files must be separated into folders by date in the format ``yyyy/mm/dd``, using as many date layers as appropriate (for example, daily files may only need ``yyyy/mm`` folders).
 
+.. image:: _static/processing.png
+   :width: 400
+   :alt: Tree structure of processing folders in ncas_obs GWS
 
 .. _tools folder paragraph:
 

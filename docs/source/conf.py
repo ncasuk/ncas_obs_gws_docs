@@ -26,3 +26,8 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+html_favicon = '_static/cropped-ncas-32x32.png'
+html_logo = '_static/NCAS_national_centre_logo_white.png'
+def setup(app):
+   app.add_css_file("theme_overrides.css")
