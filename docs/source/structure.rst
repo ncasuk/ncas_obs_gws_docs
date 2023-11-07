@@ -84,5 +84,5 @@ Project Folder
 --------------
 In a number of places throughout the GWS, instrument data is stored within a project folder, which is named in the format ``<start_date>_<project_name>``. This project folder helps to keep related data together through the GWS, and helps place it in the right place when uploaded to the CEDA archive.
 
-- ``<start_date>`` is the first date on which the instrument collected data during the project, and must be in YYYYmmdd format.
+- ``<start_date>`` is the first date on which the instrument was booked on a deployment for a project, regardless of when data was first collected during that campaign, and must be in YYYYmmdd format.
 - ``<project_name>`` is the name, or abbreviated name, of the project during which data was collected. In the case of long term observations taken at an observatory unrelated to a specific project, ``longterm`` should be used for static instruments (i.e. instruments that are part of the observatory) or the abbreviated observatory name (e.g. ``iao``) for mobile instruments.
