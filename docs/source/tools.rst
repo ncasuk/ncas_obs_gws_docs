@@ -39,18 +39,15 @@ where ``instrument`` is the unique name given to each NCAS instrument. These rep
 
 checksit
 --------
-**COMING SOON...**
+An installation of checksit_ is available on JASMIN. checksit is a compliance checker being designed to check data from NCAS instruments meets the format required by the relevant NCAS data standard. More information on the NCAS data standards can be found on the `NCAS Data Activity`_ documentation. This installation of checksit is used in the :ref:`tools that send data to the CEDA arrivals area<upload to ceda paragraph>`. checksit can be used by anyone with GWS access by following these instructions::
 
-An installation of checksit_ is made available within the GWS. checksit is a compliance checker being designed to check data from NCAS instruments meets the format required by the relevant NCAS data standard. More information on the NCAS data standards can be found on the `NCAS Data Activity`_ documentation. This installation of checksit is used in the :ref:`tools that send data to the CEDA arrivals area<upload to ceda paragraph>`. checksit can be used by anyone with GWS access by following these instructions::
+  /apps/jasmin/community/checksit
 
-  # actual instructions coming when this is installed
-  activate environment
-  checksit check my_file
-
-
+More information about this install can be found on the `JASMIN help docs`_.
 
 .. _checksit: https://checksit.readthedocs.io
 .. _this article from JASMIN: https://help.jasmin.ac.uk/article/202-share-gws-data-via-http
 .. _available online: https://gws-access.jasmin.ac.uk/public/ncas_obs/
 .. _NCASUK GitHub organisation: https://github.com/ncasuk
 .. _NCAS Data Activity: https://sites.google.com/ncas.ac.uk/ncasobservations/home/data-project/
+.. _JASMIN help docs: https://help.jasmin.ac.uk/article/5131-checksit
