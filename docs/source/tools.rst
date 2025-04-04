@@ -8,7 +8,7 @@ Upload to CEDA
 When the instrument scientist has created files in the :ref:`processing folder <processing folder paragraph>` ready to be archived on CEDA, a script is available that uses :ref:`checksit <checksit paragraph>` to check the formatting of the files, before moving them into the :ref:`upload folder <upload folder paragraph>` from where they will be moved to the CEDA system. This script can be used on one file, multiple files, or an entire directory::
 
   cd /gws/pw/j07/ncas_obs_vol1/scripts/transfer_to_upload
-  ./transfer_to_upload /gws/pw/j07/ncas_obs_vol1/iao/processing/ncas-aws-10/20010101_longterm
+  ./transfer-to-upload /gws/pw/j07/ncas_obs_vol1/iao/processing/ncas-aws-10/20010101_longterm
 
 where ``/gws/pw/j07/ncas_obs_vol1/iao/processing/ncas-aws-10/20010101_longterm`` is a directory that has netCDF files in structured within ``yyyy/mm`` folders as described in the :ref:`processing folder <processing folder paragraph>` section, and could be replaced by a file or a space-separated list of files.
 
