@@ -10,7 +10,7 @@ When the instrument scientist has created files in the :ref:`processing folder <
   cd /gws/pw/j07/ncas_obs_vol1/scripts/transfer_to_upload
   ./transfer-to-upload /gws/pw/j07/ncas_obs_vol1/iao/processing/ncas-aws-10/20010101_longterm
 
-where ``/gws/pw/j07/ncas_obs_vol1/iao/processing/ncas-aws-10/20010101_longterm`` is a directory that has netCDF files in structured within ``yyyy/mm`` folders as described in the :ref:`processing folder <processing folder paragraph>` section, and could be replaced by a file or a space-separated list of files.
+where ``/gws/pw/j07/ncas_obs_vol1/iao/processing/ncas-aws-10/20010101_longterm`` is a directory that has netCDF files in structured within ``yyyy/mm`` folders as described in the :ref:`processing folder <processing folder paragraph>` section, and could be replaced by a file or a space-separated list of files. The absolute path to the directory with the data files must be given, not a relative path from the current working directory.
 
 
 .. _public html paragraph:
