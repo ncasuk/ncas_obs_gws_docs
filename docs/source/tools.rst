@@ -17,7 +17,7 @@ where ``/gws/pw/j07/ncas_obs_vol1/iao/processing/ncas-aws-10/20010101_longterm``
 
 Public HTML
 -----------
-A public HTML space is `available online`_, for the purpose of sharing small files from the group workspace, such as log files, small data files that need to be quickly shared, or latest plots of data. Note that this space is NOT intended for hosting websites or building tools and applications. See `this article from JASMIN`_ for more details.
+A public HTML space is `available online`_, for the purpose of sharing small files from the group workspace, such as log files, small data files that need to be quickly shared, or latest plots of data. Note that this space is NOT intended for hosting websites or building tools and applications. See `this article from JASMIN`_ for more details. It also should NOT be used for sharing data that is intended for long-term archive. Please ensure these are uploaded to CEDA as noted above.
 
 
 
