@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ncas_obs GWS'
-copyright = '2023, NCAS'
+copyright = '2025, NCAS'
 author = 'NCAS'
 release = '0.1'
 
